@@ -1,10 +1,10 @@
-import random #
+import random #бібліотека для формування випадкових чисел
 
 #створюємо пустий стек з конкретним розміром
 sizef = 15 * 5 + 50 
 stack = []
 
-#робимо перевірку на розмір та вводимо рандомні числа + виводимо стек на екран
+#робимо перевірку на розмір та додаємо випадкові числа у стек + виводимо стек на екран
 check = True
 while check == True:
     if len(stack) <= sizef:
@@ -27,3 +27,4 @@ for number in stack:
 
 print('\n\nStack with even numbers: ', stack_even)
 print('\n\nStack with uneven numbers: ', stack_uneven)
+
