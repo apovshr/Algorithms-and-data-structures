@@ -8,7 +8,7 @@ stack = []
 check = True
 while check == True:
     if len(stack) <= sizef:
-        stack.append(random.randint(0,1001))
+        stack.append(random.randint(1,1000))
     else: 
         check = False
 
