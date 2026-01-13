@@ -63,5 +63,5 @@ for key in list(hash_table.keys()):
     if hash_table[key] % 2 == 0:
         del hash_table[key]
 
-print('New hash table with uneven values: ', hash_table)
+print('\nNew hash table with uneven values: ', hash_table)
 
